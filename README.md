@@ -1,2 +1,2 @@
 # AL Wiki Parser
- Fetch ship data including tech fleet bonuses
+ Run main.py 
