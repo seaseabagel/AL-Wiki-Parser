@@ -36,4 +36,4 @@ os.makedirs(os.path.dirname(output_path), exist_ok=True)
 with open(output_path, 'w') as f_out:
     json.dump(missing_in_data2, f_out, ensure_ascii=False, indent=2)
 
-print("Missing items saved to missing/missing_ships.json")
+print(f"{len(missing_in_data2)} missing items saved to missing/missing_ships.json")
